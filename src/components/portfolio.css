@@ -1,0 +1,44 @@
+.img-center {
+   width: 23%;
+   border-radius: 25%;
+   position: relative;
+   left: 50%;
+   top: 200px;
+   transform: translate(-50%,-50%);
+}
+.jumbotron {
+    background: transparent;
+}
+.bg-custom{
+    background: #1abc9c;
+}
+
+.bg-menu{
+    background: #2c3e50;
+}
+
+@media(max-width:567px) {
+    .img-center {
+        position: relative;
+        top:50px;
+    }
+    .jumbotron {
+        background: transparent;
+    }
+}
+
+
+@media(max-width:1080px) {
+    .img-center {
+        position: relative;
+        top:70px;
+    }
+
+    .jumbotron {
+        background: transparent;
+    }
+
+    h1 {
+        font-size: 2.1em;
+    }
+}
